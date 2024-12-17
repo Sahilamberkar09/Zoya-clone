@@ -1,0 +1,152 @@
+@media (max-width: 1200px) {
+  .col-imgs .img {
+    width: 270px;
+  }
+
+  .upper-content h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    padding: 10px 15px;
+  }
+  nav ul {
+    display: none;
+  }
+
+  .thumbnail {
+    background-position-x: center;
+  }
+
+  .title h1 {
+    width: 100%;
+  }
+
+  .collections {
+    margin: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .product-imgs img {
+    width: 195px;
+  }
+
+  .content {
+    position: relative;
+  }
+
+  .upper-content {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+
+  .upper-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .upper-content p {
+    font-size: 16px;
+  }
+
+  .upper-content q {
+    font-size: 18px;
+  }
+
+  .news-container {
+    width: 50%;
+  }
+
+  .product-spotted {
+    width: 90%;
+  }
+}
+
+@media (max-width: 968px) {
+  .thumbnail {
+    background-image: url(https://www.zoya.in/on/demandware.static/-/Sites-Zoya-Library/default/dwf027a397/images/home/Alive2_m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .col-imgs {
+    flex-direction: column;
+  }
+  .product-imgs {
+    display: none;
+  }
+
+  .categories-container {
+    gap: 0;
+    justify-content: center;
+  }
+
+  .rows {
+    gap: 2rem;
+  }
+  .mysong {
+    margin-bottom: 2rem;
+  }
+
+  .section-title {
+    margin-bottom: 1rem;
+  }
+
+  .section-title h4 {
+    font-size: 12px;
+  }
+
+  .upper-content p {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .bg-video-container video {
+    object-fit: cover;
+    height: 50vh;
+  }
+
+  .product-spotted {
+    width: 95%;
+  }
+
+  .side-imgs,
+  .middle-img {
+    width: 100%;
+  }
+
+  .side-imgs img {
+    height: auto;
+    padding: 0;
+  }
+
+  .middle-img img {
+    aspect-ratio: 1 /1;
+    height: auto;
+    object-fit: cover;
+    object-position: 0% 22%;
+  }
+
+  .newspaper {
+    background-position: 50%;
+  }
+
+  .news-container {
+    width: 95%;
+  }
+
+  .news-container p {
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: start;
+    flex-direction: column;
+  }
+  section {
+    margin: 0;
+  }
+}
